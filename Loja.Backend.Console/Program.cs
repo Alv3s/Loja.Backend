@@ -8,24 +8,29 @@ namespace Loja.Backend.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Product product = new Product();
-            product.Id = 10;
-            product.Name = "Nome Teste";
-            product.Description = "Descrição Teste";
-            product.Price = 10;
-
             List<Product> products = new List<Product>();
-            products.Add(product);
             products.Add(new Product()
             {
-                Id = 10,
+                Name = "Nome Teste 2",
+                Description = "Descrição Teste 2",
+                Price = 10,
+            });
+            products.Add(new Product()
+            {
                 Name = "Nome Teste 2",
                 Description = "Descrição Teste 2",
                 Price = 10,
             });
 
-            foreach (Product p in products)
-                Console.WriteLine(p);
+            using (LojaContext lojaContext = new LojaContext())
+            {
+                foreach (Product p in products)
+                {
+                    lojaContext.Products.Add(p);
+                    lojaContext.SaveChanges();
+                    Console.WriteLine(p);
+                }
+            }
         }
     }
 }

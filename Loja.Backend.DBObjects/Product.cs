@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Loja.Backend.DBObjects
+﻿namespace Loja.Backend.DBObjects
 {
     public class Product
     {
@@ -8,6 +6,7 @@ namespace Loja.Backend.DBObjects
         public string Name { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }
+        public double VAT { get; set; }
 
         public override string ToString()
         {
