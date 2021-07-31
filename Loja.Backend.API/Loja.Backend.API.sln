@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Backend.API", "Loja.Backend.API.csproj", "{933F418A-A05B-4598-80E0-360886087AC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Backend.Console", "..\Loja.Backend.Console\Loja.Backend.Console.csproj", "{3AAC5771-81A0-4266-B0B2-A7D630A26A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loja.Backend.DBObjects", "..\Loja.Backend.DBObjects\Loja.Backend.DBObjects.csproj", "{70AC4F8A-D9C2-4A38-819F-040FBFF03E60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{933F418A-A05B-4598-80E0-360886087AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933F418A-A05B-4598-80E0-360886087AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933F418A-A05B-4598-80E0-360886087AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAC5771-81A0-4266-B0B2-A7D630A26A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAC5771-81A0-4266-B0B2-A7D630A26A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAC5771-81A0-4266-B0B2-A7D630A26A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAC5771-81A0-4266-B0B2-A7D630A26A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AC4F8A-D9C2-4A38-819F-040FBFF03E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AC4F8A-D9C2-4A38-819F-040FBFF03E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AC4F8A-D9C2-4A38-819F-040FBFF03E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AC4F8A-D9C2-4A38-819F-040FBFF03E60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
