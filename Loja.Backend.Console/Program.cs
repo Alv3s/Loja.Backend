@@ -11,8 +11,8 @@ namespace Loja.Backend.ConsoleApp
             List<Product> products = new List<Product>();
             products.Add(new Product()
             {
-                Name = "Nome Teste 2",
-                Description = "Descrição Teste 2",
+                Name = "Nome Teste 1",
+                Description = "Descrição Teste 1",
                 Price = 10,
             });
             products.Add(new Product()
